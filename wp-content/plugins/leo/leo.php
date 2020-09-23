@@ -23,7 +23,7 @@ function social_leo($atts) {
     return $redes;
 }
 
-$A="jhfhj";
+$A="jhfhjjjj";
 
 
 
