@@ -64,6 +64,10 @@ define( 'NONCE_SALT',       'mR?+b>!S^p6v:[DcPWmi*B3z)}m#U;d;W{.wUm#x9FTdAT^](6M
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
+// estas tres lineas la agrego leo para depurar wp
+define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', false);
+define('WP_DEBUG_LOG', true);
 
 /**
  * For developers: WordPress debugging mode.
